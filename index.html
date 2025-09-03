@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cafe Finder</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Hammer.js for swipe detection -->
+  <script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8/hammer.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>☕ Cafe Finder</h1>
+    <nav>
+      <button onclick="getLocation()">Find Cafes Nearby</button>
+      <button onclick="showSaved()">Show Saved Cafes</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Cards will be inserted here by JS -->
+    <div class="cards"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
